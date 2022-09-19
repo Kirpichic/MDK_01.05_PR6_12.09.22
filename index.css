@@ -1,15 +1,43 @@
+/*Способ1*/
 .c1{
+    position: absolute;
     width: 100px;
     height: 100px;
-    padding: 10px;
     border: 10px solid red;
     border-radius: 50%;
+    z-index: 1;
 }
 
-.c1{
-    width: 50px;
-    height: 50px;
-    /*border: 10px solid blue;*/
+.c2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
     background-color: blue;
     border-radius: 50%;
+    left: 37px;
+    top: 37px;
+    z-index: 2;
+}
+
+/*Способ2*/
+.c3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 10px solid red;
+    border-radius: 50%;
+    top: 200px;
+    z-index: 1;
+}
+
+.c4{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    top: 210px;
+    left: 18px;
+    z-index: 2;
 }
